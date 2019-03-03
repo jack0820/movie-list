@@ -19,7 +19,7 @@ def gettitles(text):
     item = {}
     for name,realeasetime in zip(titles,releasetimes):
         item['电影名称'] = name
-        item['上映时间'] = realeasetime
+        item[' '] = realeasetime
         yield item 
 
 #保存数据
